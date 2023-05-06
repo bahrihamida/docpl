@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navimg{
+    height: 33px;
+    width: 268px;
+}
+.navul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.navul-li{
+    font-size: 15px;
+    line-height: 30px;
+    color: #ababab
+}
+
+#green{
+    color:#00b39b; 
+}
+
+.navul-li:hover {
+    color: #00b39b;
+    cursor: pointer;
+}
+
+.depart{
+    position: relative;
+}
+
+.depart-li{
+    position: absolute;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+
+a:hover{
+    color: #00b39b;
+    background: aliceblue;
+}
